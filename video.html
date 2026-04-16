@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Presentation — [YOUR NAME] Portfolio</title>
+  <meta name="description" content="A short video reflection on the M.S. Applied Data Science program." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">[YOUR NAME]</a>
+      <nav class="nav">
+        <a href="index.html">Overview</a>
+        <a href="projects.html">Projects</a>
+        <a href="video.html" class="active">Video</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Video Presentation</h1>
+        <p class="lede">A 1&ndash;2 minute summary of my overall thoughts on the program and what I learned.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+
+        <!-- Replace the iframe src below with your YouTube/Vimeo embed URL,
+             or replace the entire .video-wrapper block with a <video> tag if
+             you'd rather host the file in this repo (see commented example). -->
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/REPLACE_WITH_VIDEO_ID"
+            title="Portfolio video presentation"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <!--
+        Self-hosted alternative: place your file at assets/video/portfolio.mp4
+        and replace the .video-wrapper above with:
+
+        <div class="video-wrapper">
+          <video controls preload="metadata">
+            <source src="assets/video/portfolio.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        -->
+
+        <div class="callout">
+          <strong>Replace the placeholder.</strong> Swap <code>REPLACE_WITH_VIDEO_ID</code> in the iframe above with your actual YouTube video ID (the part after <code>v=</code> in the URL), or use the self-hosted block in the HTML comments.
+        </div>
+
+        <h2>What I cover</h2>
+        <p><span class="placeholder">[Write a short paragraph (3&ndash;5 sentences) introducing the video. What will the viewer learn? Highlight 1&ndash;2 takeaways from your time in the program. This text helps anyone who can't watch the video right away.]</span></p>
+
+        <h3>Transcript (optional but recommended for accessibility)</h3>
+        <p><span class="placeholder">[Paste a plain-text transcript of the video here. This makes the page accessible to screen readers and people in sound-off environments, and it also helps with search.]</span></p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> [YOUR NAME] &middot; Built for IST 782, M.S. Applied Data Science, Syracuse University.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

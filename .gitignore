@@ -3,3 +3,9 @@ Thumbs.db
 *.log
 .vscode/
 .idea/
+
+# Local-only project source materials (not published to GitHub Pages)
+project-sources/
+
+# Word docs
+*.docx

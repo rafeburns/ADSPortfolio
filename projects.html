@@ -34,136 +34,121 @@
       <div class="container">
 
         <!-- ============ PROJECT 1 ============ -->
-        <article class="project" id="project-1">
-          <h2>[PROJECT 1 TITLE]</h2>
-          <p class="course">[COURSE CODE &mdash; COURSE NAME] &middot; [SEMESTER, YEAR]</p>
+        <article class="project-card" id="project-1">
+          <span class="course-tag">IST 707 &mdash; Applied Machine Learning</span>
+          <h2>Mental Health &amp; Wellbeing Analysis: Predicting Anxiety and Depression Among Syracuse Students</h2>
+          <p class="summary">Analyzed responses from 4,957 Syracuse University students in the 2025 Campus Wellness Survey to predict anxiety and depression using machine learning. Built Random Forest classifiers achieving 72.55% accuracy for anxiety and 79.04% for depression, then used DBSCAN and HDBSCAN clustering to segment students into distinct intervention profiles. Key finding: loneliness was the single strongest predictor of both conditions across all models, with lonely students showing 2&ndash;5&times; higher rates of mental health issues compared to socially connected peers.</p>
 
-          <div class="field">
-            <div class="field-label">Goal</div>
-            <p><span class="placeholder">[What problem were you solving? Who was the project for? Write 2&ndash;4 sentences for a non-technical reader.]</span></p>
-          </div>
+          <hr class="divider" />
 
-          <div class="field">
-            <div class="field-label">Technologies used</div>
-            <ul class="tech-list">
-              <li>[e.g., Python]</li>
-              <li>[e.g., pandas]</li>
-              <li>[e.g., scikit-learn]</li>
-              <li>[e.g., Tableau]</li>
-              <li>[e.g., SQL]</li>
-            </ul>
-          </div>
-
-          <div class="field">
-            <div class="field-label">My contribution</div>
-            <p><span class="placeholder">[If group project: what part did you specifically own? If solo: write "Solo project &mdash; full ownership of data collection through final deliverable."]</span></p>
-          </div>
-
-          <div class="field">
-            <div class="field-label">Actionable insight generated</div>
-            <p><span class="placeholder">[What did the work tell the stakeholder they should DO? Be concrete. e.g., "Customers in segment X are 3x more likely to churn within 90 days; the recommendation was to target them with retention offers in month 2 of the lifecycle."]</span></p>
-          </div>
-
-          <div class="field">
-            <div class="field-label">Learning outcomes demonstrated</div>
-            <ul>
-              <li><span class="placeholder">[Outcome # &mdash; one sentence on how this project demonstrated it.]</span></li>
-              <li><span class="placeholder">[Outcome # &mdash; one sentence on how this project demonstrated it.]</span></li>
-              <li><span class="placeholder">[Outcome # &mdash; one sentence on how this project demonstrated it.]</span></li>
-            </ul>
-          </div>
-
-          <div class="field">
-            <div class="field-label">Artifacts</div>
-            <p><span class="placeholder">[Optional: link to GitHub repo, slide deck, or report. e.g., <a href="#">View code on GitHub &rarr;</a>]</span></p>
+          <div class="project-meta-grid">
+            <div class="meta-col">
+              <div class="meta-block">
+                <div class="meta-label">Stakeholder</div>
+                <div class="meta-value">Syracuse University Barnes Center for Health &amp; Wellbeing</div>
+              </div>
+              <div class="meta-block">
+                <div class="meta-label">Actionable Insight</div>
+                <div class="meta-value">Identified high-risk student clusters to support proactive, data-informed outreach &mdash; shifting from reactive crisis management</div>
+              </div>
+            </div>
+            <div class="meta-col">
+              <div class="meta-block">
+                <div class="meta-label">Skills Used</div>
+                <ul class="tech-pills">
+                  <li>Python</li>
+                  <li>scikit-learn</li>
+                  <li>Random Forest</li>
+                  <li>DBSCAN</li>
+                  <li>HDBSCAN</li>
+                  <li>t-SNE</li>
+                </ul>
+              </div>
+              <div class="meta-block">
+                <div class="meta-label">Learning Outcomes Demonstrated</div>
+                <div class="meta-value">2, 3, 4, 5, 6</div>
+              </div>
+            </div>
           </div>
         </article>
 
         <!-- ============ PROJECT 2 ============ -->
-        <article class="project" id="project-2">
-          <h2>[PROJECT 2 TITLE]</h2>
-          <p class="course">[COURSE CODE &mdash; COURSE NAME] &middot; [SEMESTER, YEAR]</p>
+        <article class="project-card theme-purple" id="project-2">
+          <span class="course-tag">IST 691 &mdash; Deep Learning in Practice</span>
+          <h2>Indie Music Recommendation System</h2>
+          <p class="summary">Built a convolutional autoencoder that compresses 5-second audio snippets into 256-dimensional embeddings, enabling music discovery from the kind of short clips people hear on TikTok or Instagram Reels. Trained on 83,290 chunks derived from 8,000 Free Music Archive tracks, the model reached a validation loss of 0.0042 MSE and achieved 70% Top-10 song-level accuracy. Even when the exact track wasn't retrieved, recommendations frequently surfaced same-genre songs &mdash; evidence that the embeddings captured meaningful acoustic similarity, not just memorized tracks.</p>
 
-          <div class="field">
-            <div class="field-label">Goal</div>
-            <p><span class="placeholder">[What problem were you solving? Who was the project for? Write 2&ndash;4 sentences for a non-technical reader.]</span></p>
-          </div>
+          <hr class="divider" />
 
-          <div class="field">
-            <div class="field-label">Technologies used</div>
-            <ul class="tech-list">
-              <li>[Tool 1]</li>
-              <li>[Tool 2]</li>
-              <li>[Tool 3]</li>
-            </ul>
-          </div>
-
-          <div class="field">
-            <div class="field-label">My contribution</div>
-            <p><span class="placeholder">[If group project: what part did you specifically own? If solo: write "Solo project."]</span></p>
-          </div>
-
-          <div class="field">
-            <div class="field-label">Actionable insight generated</div>
-            <p><span class="placeholder">[What did the work tell the stakeholder they should DO?]</span></p>
-          </div>
-
-          <div class="field">
-            <div class="field-label">Learning outcomes demonstrated</div>
-            <ul>
-              <li><span class="placeholder">[Outcome # &mdash; one sentence.]</span></li>
-              <li><span class="placeholder">[Outcome # &mdash; one sentence.]</span></li>
-              <li><span class="placeholder">[Outcome # &mdash; one sentence.]</span></li>
-            </ul>
-          </div>
-
-          <div class="field">
-            <div class="field-label">Artifacts</div>
-            <p><span class="placeholder">[Optional: link to GitHub repo, slide deck, or report.]</span></p>
+          <div class="project-meta-grid">
+            <div class="meta-col">
+              <div class="meta-block">
+                <div class="meta-label">Stakeholder</div>
+                <div class="meta-value">Independent artists and listeners looking to discover indie music from short audio clips</div>
+              </div>
+              <div class="meta-block">
+                <div class="meta-label">Actionable Insight</div>
+                <div class="meta-value">Short snippets contain enough signal for meaningful similarity matching &mdash; offering indie artists a discovery path that doesn't depend on existing popularity or streaming behavior</div>
+              </div>
+            </div>
+            <div class="meta-col">
+              <div class="meta-block">
+                <div class="meta-label">Skills Used</div>
+                <ul class="tech-pills">
+                  <li>Python</li>
+                  <li>Convolutional Autoencoder</li>
+                  <li>Mel Spectrograms</li>
+                  <li>STFT</li>
+                  <li>CNN</li>
+                  <li>GPU Training</li>
+                </ul>
+              </div>
+              <div class="meta-block">
+                <div class="meta-label">Learning Outcomes Demonstrated</div>
+                <div class="meta-value">1, 2, 3, 4, 5</div>
+              </div>
+            </div>
           </div>
         </article>
 
         <!-- ============ PROJECT 3 ============ -->
-        <article class="project" id="project-3">
-          <h2>[PROJECT 3 TITLE]</h2>
-          <p class="course">[COURSE CODE &mdash; COURSE NAME] &middot; [SEMESTER, YEAR]</p>
+        <article class="project-card theme-slate" id="project-3">
+          <span class="course-tag">IST 615 &mdash; Cloud Management</span>
+          <h2>Cloud-Deployed ML Workbench</h2>
+          <p class="summary">Designed and deployed a full-stack web application that lets users train machine learning models without writing code. Users upload a CSV through the web frontend, and the backend returns summary statistics, trains models (linear and logistic regression, Random Forest, LightGBM, XGBoost), and runs predictions on new data. Trained models can be exported as <code>.pkl</code> files for reuse, and new CSVs can be uploaded to test or generate predictions against a saved model. Backend auto-deploys from GitHub to an Azure Web App; frontend is hosted on Vercel.</p>
 
-          <div class="field">
-            <div class="field-label">Goal</div>
-            <p><span class="placeholder">[What problem were you solving? Who was the project for? Write 2&ndash;4 sentences for a non-technical reader.]</span></p>
-          </div>
+          <hr class="divider" />
 
-          <div class="field">
-            <div class="field-label">Technologies used</div>
-            <ul class="tech-list">
-              <li>[Tool 1]</li>
-              <li>[Tool 2]</li>
-              <li>[Tool 3]</li>
-            </ul>
-          </div>
-
-          <div class="field">
-            <div class="field-label">My contribution</div>
-            <p><span class="placeholder">[If group project: what part did you specifically own? If solo: write "Solo project."]</span></p>
-          </div>
-
-          <div class="field">
-            <div class="field-label">Actionable insight generated</div>
-            <p><span class="placeholder">[What did the work tell the stakeholder they should DO?]</span></p>
-          </div>
-
-          <div class="field">
-            <div class="field-label">Learning outcomes demonstrated</div>
-            <ul>
-              <li><span class="placeholder">[Outcome # &mdash; one sentence.]</span></li>
-              <li><span class="placeholder">[Outcome # &mdash; one sentence.]</span></li>
-              <li><span class="placeholder">[Outcome # &mdash; one sentence.]</span></li>
-            </ul>
-          </div>
-
-          <div class="field">
-            <div class="field-label">Artifacts</div>
-            <p><span class="placeholder">[Optional: link to GitHub repo, slide deck, or report.]</span></p>
+          <div class="project-meta-grid">
+            <div class="meta-col">
+              <div class="meta-block">
+                <div class="meta-label">Stakeholder</div>
+                <div class="meta-value">Analysts and students who need to explore data and train baseline ML models without setting up a local Python environment</div>
+              </div>
+              <div class="meta-block">
+                <div class="meta-label">Actionable Insight</div>
+                <div class="meta-value">Demonstrated that a standard ML workflow &mdash; exploration, training, evaluation, export, and prediction &mdash; can be delivered as a lightweight cloud service, lowering the barrier for non-programmers to run real models</div>
+              </div>
+            </div>
+            <div class="meta-col">
+              <div class="meta-block">
+                <div class="meta-label">Skills Used</div>
+                <ul class="tech-pills">
+                  <li>Azure Web App</li>
+                  <li>Vercel</li>
+                  <li>Python</li>
+                  <li>scikit-learn</li>
+                  <li>LightGBM</li>
+                  <li>XGBoost</li>
+                  <li>REST API</li>
+                  <li>CI/CD</li>
+                </ul>
+              </div>
+              <div class="meta-block">
+                <div class="meta-label">Learning Outcomes Demonstrated</div>
+                <div class="meta-value">1, 3, 4</div>
+              </div>
+            </div>
           </div>
         </article>
 
